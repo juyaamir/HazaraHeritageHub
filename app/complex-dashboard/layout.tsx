@@ -13,7 +13,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ( {
     users,
     login
 }) => {
-    const isLoggedIn = false;
+    const isLoggedIn = true;
 return isLoggedIn ? (
     <div>
         <div>
